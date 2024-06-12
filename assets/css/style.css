@@ -1,0 +1,77 @@
+body {
+    margin: 0px;
+    background-color: hsl(0, 0%, 8%);
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+
+.container{
+    align-items: center;
+    background: hsl(0, 0%, 8%);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    width: 100vw;
+}
+
+.container__jessica{
+    background: hsl(0, 0%, 12%);
+    border-radius: 8px;
+    height: 500px;
+    text-align: center;
+    width: 300px;
+}
+
+.informacoes__imagem{
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 75px;
+}
+
+.container__titulo{
+    color: white;
+    font-weight: 700;
+    margin: 0;
+}
+
+.informacoes__endereco{
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+    margin-top: 5px;
+    margin-bottom: 2em;
+}
+
+.informacoes__profissao{
+    color: white;
+    font-size: 12px;
+    margin: 0;
+}
+
+.redes-sociais{
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+}
+
+.botao__link{
+    background: hsl(0, 0%, 20%);
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px;
+    margin: 7px;  
+}
+
+.attribution{
+    color: white;
+    margin-top: 3em;
+}
+
+/* Animações */
+
+.botao__link:hover{
+    background: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
