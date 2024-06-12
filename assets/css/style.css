@@ -75,3 +75,15 @@ body {
     background: hsl(75, 94%, 57%);
     color: hsl(0, 0%, 8%);
 }
+
+@media (max-width: 400px) {
+    .container__jessica{
+        height: 700px;
+        width: 300px;
+    }
+
+    .informacoes{
+        padding-top: 7em;
+    }
+
+}
